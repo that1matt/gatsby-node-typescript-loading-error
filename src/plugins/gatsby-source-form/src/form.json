@@ -1,0 +1,70 @@
+[
+  {
+    "id": "1",
+    "name": "Name",
+    "description": "description",
+    "createdAt": "2022-09-08T22:18:12Z+0000",
+    "updatedAt": "2022-12-15T02:22:37Z+0000",
+    "url": "https://google.com",
+    "status": "approved",
+    "theme": "simple:",
+    "language": "English",
+    "locale": "en_US",
+    "progressiveProfiling": false,
+    "labelPosition": "left",
+    "fontFamily": "Arial",
+    "fontSize": "12px",
+    "folder": {
+      "type": "Folder",
+      "value": 174,
+      "folderName": "Forms"
+    },
+    "knownVisitor": {
+      "type": "form",
+      "template": null
+    },
+    "thankYouList": [
+      {
+        "followupType": "none",
+        "followupValue": null,
+        "default": true
+      }
+    ],
+    "buttonLocation": 165,
+    "buttonLabel": "Unsubscribe",
+    "waitingLabel": "Please Wait",
+    "workSpaceId": 1,
+    "childFields": [
+      {
+        "id": "Email",
+        "label": "Email Address:",
+        "labelWidth": 146,
+        "fieldWidth": 342,
+        "dataType": "email",
+        "validationMessage": "Must be valid email. <span class=\"mktoErrorDetail\">example@yourdomain.com</span>",
+        "rowNumber": 0,
+        "columnNumber": 0,
+        "required": true,
+        "formPrefill": true,
+        "visibilityRules": {
+          "ruleType": "alwaysShow"
+        },
+        "apiId": "email"
+      },
+      {
+        "id": "Unsubscribed",
+        "label": "Unsubscribe",
+        "dataType": "hidden",
+        "rowNumber": 1,
+        "columnNumber": 0,
+        "required": false,
+        "autoFill": {
+          "value": "Yes",
+          "valueFrom": "default",
+          "parameterName": ""
+        },
+        "apiId": "unsubscribed"
+      }
+    ]
+  }
+]

@@ -12,7 +12,12 @@
     "es6": true,
     "node": true
   },
-  "plugins": ["react", "jsx-a11y", "prettier", "@typescript-eslint"],
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "prettier",
+    "@typescript-eslint"
+  ],
   "extends": [
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
@@ -47,7 +52,12 @@
         "avoidEscape": true
       }
     ],
-    "@typescript-eslint/no-unused-vars": [2, { "argsIgnorePattern": "^_" }]
+    "@typescript-eslint/no-unused-vars": [
+      2,
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ]
   },
   "settings": {
     "import/resolver": {

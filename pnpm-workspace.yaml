@@ -1,0 +1,8 @@
+packages:
+  # all packages in subdirs
+  - 'src/plugins/'
+  - 'src/plugins/**'
+  # exclude packages that are inside __snapshots__ & test directories
+  - '!**/test/**'
+  - '!**/__tests__/**'
+  - '!**/__snapshots__/**'

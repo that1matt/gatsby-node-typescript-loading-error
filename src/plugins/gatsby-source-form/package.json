@@ -1,0 +1,16 @@
+{
+  "name": "gatsby-source-form",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "license": "UNLICENSED",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest --color --logHeapUsage",
+    "test:update": "pnpm test -- --updateSnapshot",
+    "tsc": "tsc"
+  },
+  "peerDependencies": {
+    "gatsby": "^5.0.0"
+  }
+}
